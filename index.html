@@ -1,39 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <link rel="preload" href="./css/style.css" as="style" />
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Research and travels">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Research and travels" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Research and travels</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <div class="container">
-          <nav class="navbar">
-            <a href="index.html" class="logo">
-              <img
-                width="41"
-                height="41"
-                loading="lazy"
-                src="img/logo.svg"
-                alt="Company logo"
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html" class="logo">
+            <img
+              width="41"
+              height="41"
+              loading="lazy"
+              src="img/logo.svg"
+              alt="Company logo"
+            />
+          </a>
+          <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Partner</a></li>
+          </ul>
+          <a href="#" class="button header-btn-log">Login</a>
+          <a href="#" class="button header-btn-reg">Register</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="container">
+        <div class="hero-section">
+          <div class="hero-content">
+            <h1 class="hero-title">Explore and Travel</h1>
+            <p class="hero-subtitle">Holiday finder</p>
+            <div class="short-separator"></div>
+            <div class="hero-holiday-finder">
+              <select class="hero-select" type="search" name="location">
+                <option selected>Location</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <select class="hero-select" type="search" name="activity">
+                <option selected>Activity</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <input
+                class="hero-select"
+                type="number"
+                min="0"
+                max="10"
+                name="grade"
+                placeholder="Grade"
               />
-            </a>
-            <ul class="nav">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Destinations</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Partner</a></li>
-            </ul>
-            <a href="#" class="button header-btn">Login</a>
-            <a href="#" class="button header-btn">Register</a>
-          </nav>
+              <input
+                class="hero-select"
+                type="date"
+                name="date"
+                placeholder="Data"
+              />
+              <a href="#" class="button header-btn-reg">Explore</a>
+            </div>
+          </div>
+          <img
+            class="hero-img"
+            width="1"
+            height="1"
+            loading="lazy"
+            src="img/explore.webp"
+            alt="Data Warehouse"
+          />
         </div>
-      </header>
+      </div>
+    </div>
 
 
-</body>
+    
+  </body>
 </html>
