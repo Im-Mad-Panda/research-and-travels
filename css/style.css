@@ -724,12 +724,19 @@ border-radius: 4px;
   margin-left: 140px;
 }
 .button.header-btn-exp{
-  color: #fb8f1d;
-  padding: 8px 46px;
+  color: #ffffff;
+  background: #fb8f1d;
+  padding: 8px 36px;
   font-weight: 500;
   font-size: 15px;
   line-height: 30px;
   margin-top: 20px;
+}
+.button.header-btn-exp:hover{
+  text-shadow: 0.2px 0.2px 0px, -0.2px -0.2px 0px;
+  color: #fb8f1d;
+  background: #fff;
+  transition: 0.3s;
 }
 
 /*=====================HERO STYLES END======================*/
