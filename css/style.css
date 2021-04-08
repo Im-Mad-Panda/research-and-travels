@@ -853,5 +853,17 @@ body {
 .services-box-country-link:hover {
   text-decoration: underline;
 }
-
 /*=====================SERVICES STYLES END======================*/
+/*=====================BLOG guides STYLES START======================*/
+.blog-guides {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+.blog-guides-content {
+  margin-right: 50px;
+}
+.guides {
+  width: 350px;
+}
+/*=====================BLOG guides STYLES END======================*/
