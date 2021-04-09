@@ -75,7 +75,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -86,7 +86,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -96,7 +96,7 @@
 }
 /* greek-ext */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -106,7 +106,7 @@
 }
 /* greek */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -116,7 +116,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -127,7 +127,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -138,7 +138,7 @@
 }
 /* latin */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Regular";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -867,3 +867,87 @@ body {
   width: 350px;
 }
 /*=====================BLOG guides STYLES END======================*/
+/*=====================testimonials STYLES START======================*/
+.testimonials{
+  padding-bottom: 270px;
+}
+.testimonials-box{
+display: flex;
+justify-content: space-between;
+}
+.testimonials-title{
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  line-height: 50px;
+ color: #000000;
+ margin-bottom: 145px;
+}
+.testimonials-rating {
+	overflow: hidden;
+	width: 210px;
+	margin-bottom: 30px;
+}
+.testimonials-rating:not(:checked) > input {
+	display: none;
+}
+.testimonials-rating:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 32px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.testimonials-rating:not(:checked) > label:before {
+	content: '★';
+}
+.testimonials-rating > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+.testimonials-rating:not(:checked) > label:hover,
+.testimonials-rating:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+.testimonials-rating > input:checked + label:hover,
+.testimonials-rating > input:checked + label:hover ~ label,
+.testimonials-rating > input:checked ~ label:hover,
+.testimonials-rating > input:checked ~ label:hover ~ label,
+.testimonials-rating > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+.rate-area > label:active {
+	position: relative;
+}
+.testimonials-text{
+  width: 400px;
+  font-weight: 300;
+  font-size: 24px;
+line-height: 36px;
+color: #000000;
+margin-bottom: 40px;
+}
+.testimonials-name{
+  font-weight: 700;
+  font-size: 22px;
+line-height: 30px;
+color: #000000;
+}
+.testimonials-founder{
+  font-family: "Inter Regular", serif;
+  font-size: 18px;
+line-height: 30px;
+color: rgba(0, 0, 0, 0.85);
+}
+.testimonials-img{
+  margin-top: 100px;
+    width: 35%;
+  border-radius: 15px;
+  height: auto;
+  object-fit: cover;
+}
+
+/*=====================testimonials STYLES END======================*/
