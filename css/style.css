@@ -225,7 +225,7 @@
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Bold";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -236,7 +236,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Bold";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -246,7 +246,7 @@
 }
 /* greek-ext */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Bold";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -256,7 +256,7 @@
 }
 /* greek */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Bold";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -266,7 +266,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Bold";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -277,7 +277,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Bold";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -288,7 +288,7 @@
 }
 /* latin */
 @font-face {
-  font-family: "Inter";
+  font-family: "Inter Bold";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -981,6 +981,92 @@ color: rgba(0, 0, 0, 0.85);
       -webkit-align-items: center;
       align-items: center;
     }
-
-
 /*=====================testimonials STYLES END======================*/
+/*=====================trending STYLES START======================*/
+.trending {
+  padding-bottom: 230px;
+}
+.trending-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 55px;
+}
+.trending-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+}
+.trending-box-link {
+  width: 100px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: #fb8f1d;
+}
+.trending-btn::after {
+  content: "";
+  background: url("../img/services-btn.svg") no-repeat 0 0 / cover;
+  width: 5px;
+  height: 10px;
+  margin-left: 10px;
+}
+.trending-btn:hover::after {
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+.trending-section {
+  padding-bottom: 137px;
+  display: flex;
+  justify-content: space-between;
+}
+.trending-box {
+  width: 260px;
+}
+.trending-img {
+  border-radius: 10px;
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+.box-content {
+  border-radius: 10px;
+  height: auto;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+}
+.box-content:hover {
+  background-color: white;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05), 0 10px 10px rgba(0, 0, 0, 0.05);
+}
+.trending-title-box {
+  width: 255px;
+  font-family: "Inter Bold", serif;
+  font-size: 19px;
+line-height: 30px;
+color: #000000;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.trending-text{
+  font-weight: 400;
+  font-size: 15px;
+line-height: 26px;
+color: #7D7987;
+margin-bottom: 25px;
+}
+.trending-see {
+  margin-top: auto;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+color: #FB8F1D;
+}
+.trending-see a:hover {
+  text-decoration: underline;
+}
+/*=====================trending STYLES END======================*/
