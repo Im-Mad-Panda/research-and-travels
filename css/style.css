@@ -984,7 +984,7 @@ color: rgba(0, 0, 0, 0.85);
 /*=====================testimonials STYLES END======================*/
 /*=====================trending STYLES START======================*/
 .trending {
-  padding-bottom: 230px;
+  padding-bottom: 270px;
 }
 .trending-content {
   display: flex;
@@ -1019,7 +1019,6 @@ color: rgba(0, 0, 0, 0.85);
 }
 
 .trending-section {
-  padding-bottom: 137px;
   display: flex;
   justify-content: space-between;
 }
@@ -1070,3 +1069,94 @@ color: #FB8F1D;
   text-decoration: underline;
 }
 /*=====================trending STYLES END======================*/
+/*=====================FOOTER START======================*/
+.footer {
+  background: #F9F9FB;
+  padding-bottom: 30px;
+}
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  color: #212353;
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+.nav-footer {
+  margin-bottom: 35px;
+}
+.footer-information{
+  width: 300px;
+  font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+color: #848484;
+margin-bottom: 55px;
+}
+.footer-data-company{
+  font-weight: 300;
+font-size: 17px;
+line-height: 28px;
+color: #848484;
+}
+.footer-nav-links {
+  display: contents;
+}
+.footer-number-link {
+  width: 265px;
+  font-family: "avenir";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 180%;
+  letter-spacing: 0.01em;
+}
+.footer-navbar {
+  font-family: "avenir";
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 250%;
+}
+.footer-navbar a:hover {
+  text-shadow: 0.2px 0.2px 0px, -0.2px -0.2px 0px;
+}
+.footer-navbar li {
+  font-weight: 300;
+font-size: 18px;
+line-height: 38px;
+color: #848484;
+}
+.footer-social {
+  font-family: "Mulish Bold", sans-serif;
+  font-size: 19px;
+line-height: 60px;
+color: #000000;
+}
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icon > img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+.icon> img:hover {
+  text-shadow: 0.2px 0.2px 0px, -0.2px -0.2px 0px #000000;
+}
+.icon:nth-child(n + 2) {
+  margin-left: 10px;
+}
+.fullw-separator {
+  border-bottom: 1px solid #C4C4C4;
+  margin-bottom: 30px;
+}
+.social-icons{
+display: flex;
+justify-content: center;
+align-items: baseline;
+}
+.social-icons li:nth-child(n + 2) {
+  margin-left: 50px;
+}
+/*=====================FOOTER END======================*/
