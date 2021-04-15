@@ -871,9 +871,6 @@ body {
 .testimonials{
   padding-bottom: 270px;
 }
-.testimonials-box{
-
-}
 .testimonials-title{
   font-family: "Playfair Display", serif;
   font-size: 36px;
@@ -881,48 +878,34 @@ body {
  color: #000000;
  margin-bottom: 145px;
 }
-.testimonials-rating {
-	overflow: hidden;
-	width: 210px;
-	margin-bottom: 30px;
+.swiper-slide{
+display: flex;
+justify-content: space-between;
 }
-.testimonials-rating:not(:checked) > input {
-	display: none;
+.rating-result{
+  
 }
-.testimonials-rating:not(:checked) > label {
-	float: right;
-	width: 42px;
+.rating-result {
+	width: 190px;
+  margin-bottom: 30px;
+}
+.rating-result span {
 	padding: 0;
-	cursor: pointer;
 	font-size: 32px;
-	line-height: 32px;
+	margin: 0 3px;
+	line-height: 1;
 	color: lightgrey;
 	text-shadow: 1px 1px #bbb;
 }
-.testimonials-rating:not(:checked) > label:before {
+.rating-result > span:before {
 	content: '★';
 }
-.testimonials-rating > input:checked ~ label {
+.rating-result > span.active {
 	color: gold;
 	text-shadow: 1px 1px #c60;
 }
-.testimonials-rating:not(:checked) > label:hover,
-.testimonials-rating:not(:checked) > label:hover ~ label {
-	color: gold;
-}
-.testimonials-rating > input:checked + label:hover,
-.testimonials-rating > input:checked + label:hover ~ label,
-.testimonials-rating > input:checked ~ label:hover,
-.testimonials-rating > input:checked ~ label:hover ~ label,
-.testimonials-rating > label:hover ~ input:checked ~ label {
-	color: gold;
-	text-shadow: 1px 1px goldenrod;
-}
-.rate-area > label:active {
-	position: relative;
-}
 .testimonials-text{
-  width: 400px;
+  width: 450px;
   font-weight: 300;
   font-size: 24px;
 line-height: 36px;
@@ -942,44 +925,12 @@ line-height: 30px;
 color: rgba(0, 0, 0, 0.85);
 }
 .testimonials-img{
-  margin-top: 100px;
-    width: 35%;
+    width: 385px;
   border-radius: 15px;
   height: auto;
   object-fit: cover;
 }
-.swiper-container .testimonials-slider{
-  width: 200px;
-  
-}
-.swiper-wrapper{
-  display: flex;
-  justify-content: space-between;
-}
-    .swiper-container {
-      width: 100%;
-      height: 100%;
-    }
 
-    .swiper-slide {
-      text-align: center;
-      font-size: 18px;
-      background: #fff;
-
-      /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      -webkit-justify-content: center;
-      justify-content: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      align-items: center;
-    }
 /*=====================testimonials STYLES END======================*/
 /*=====================trending STYLES START======================*/
 .trending {
