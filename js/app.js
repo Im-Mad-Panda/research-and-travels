@@ -1,10 +1,7 @@
 const swiper = new Swiper('.testimonials-slider', {
-  pagination: {
-    el: '.swiper-pagination',
-    type: 'fraction',
-  },
+  
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.slider-button-next',
+    prevEl: '.slider-button-prev',
   },
 });
