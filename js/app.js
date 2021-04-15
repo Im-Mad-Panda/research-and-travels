@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.testimonials-slider', {
   pagination: {
     el: '.swiper-pagination',
     type: 'fraction',

@@ -872,8 +872,7 @@ body {
   padding-bottom: 270px;
 }
 .testimonials-box{
-display: flex;
-justify-content: space-between;
+
 }
 .testimonials-title{
   font-family: "Playfair Display", serif;
