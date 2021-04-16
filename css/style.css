@@ -684,7 +684,7 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.hero-select{
+.hero-select {
   padding-left: 30px;
 }
 .hero-title {
@@ -727,7 +727,6 @@ body {
 .hero-img {
   width: 610px;
   height: auto;
-  
 }
 .button.header-btn-exp {
   color: #ffffff;
@@ -754,6 +753,7 @@ body {
 .blog-media {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .blog-img {
   width: 50%;
@@ -768,7 +768,6 @@ body {
   font-size: 36px;
   line-height: 50px;
   color: #000000;
-  margin-top: 90px;
   margin-bottom: 20px;
 }
 .blog-text {
@@ -862,8 +861,6 @@ body {
 /*=====================SERVICES STYLES END======================*/
 /*=====================BLOG guides STYLES START======================*/
 .blog-guides {
-  display: flex;
-  justify-content: space-between;
   flex-direction: row-reverse;
 }
 .blog-guides-content {
@@ -874,70 +871,70 @@ body {
 }
 /*=====================BLOG guides STYLES END======================*/
 /*=====================testimonials STYLES START======================*/
-.testimonials{
+.testimonials {
+  padding-top: 100px;
   padding-bottom: 135px;
 }
-.testimonials-box{
+.testimonials-box {
   position: relative;
 }
-.testimonials-title{
+.testimonials-title {
   font-family: "Playfair Display", serif;
   font-size: 36px;
   line-height: 50px;
- color: #000000;
- margin-bottom: 50px;
+  color: #000000;
+  margin-bottom: 50px;
 }
-.swiper-slide{
-display: flex;
-justify-content: space-between;
+.swiper-slide {
+  display: flex;
+  justify-content: space-between;
 }
 .rating-result {
-	width: 190px;
+  width: 190px;
   margin-bottom: 30px;
 }
 .rating-result span {
-	padding: 0;
-	font-size: 32px;
-	margin: 0 3px;
-	line-height: 1;
-	color: lightgrey;
-	text-shadow: 1px 1px #bbb;
+  padding: 0;
+  font-size: 32px;
+  margin: 0 3px;
+  line-height: 1;
+  color: lightgrey;
+  text-shadow: 1px 1px #bbb;
 }
 .rating-result > span:before {
-	content: '★';
+  content: "★";
 }
 .rating-result > span.active {
-	color: gold;
-	text-shadow: 1px 1px #c60;
+  color: gold;
+  text-shadow: 1px 1px #c60;
 }
-.testimonials-text{
+.testimonials-text {
   width: 450px;
   font-weight: 300;
   font-size: 24px;
-line-height: 36px;
-color: #000000;
-margin-bottom: 40px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 40px;
 }
-.testimonials-name{
+.testimonials-name {
   font-weight: 700;
   font-size: 22px;
-line-height: 30px;
-color: #000000;
+  line-height: 30px;
+  color: #000000;
 }
-.testimonials-founder{
+.testimonials-founder {
   font-family: "Inter Regular", serif;
   font-size: 18px;
-line-height: 30px;
-color: rgba(0, 0, 0, 0.85);
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.85);
 }
-.testimonials-img{
-    width: 385px;
+.testimonials-img {
+  width: 385px;
   border-radius: 15px;
   height: auto;
   object-fit: cover;
-  
 }
-.swiper-slide{
+.swiper-slide {
   align-items: center;
 }
 .testimonials-img-box {
@@ -945,7 +942,7 @@ color: rgba(0, 0, 0, 0.85);
   align-items: flex-end;
   flex-direction: row-reverse;
 }
-.slider-btn{
+.slider-btn {
   border-radius: 16px 0px 0px 0px;
   background: #fff;
   width: 132px;
@@ -985,8 +982,8 @@ color: rgba(0, 0, 0, 0.85);
 /*=====================testimonials STYLES END======================*/
 /*=====================trending STYLES START======================*/
 .trending {
-  padding-top: 135px;
-  padding-bottom: 135px;
+  padding-top: 80px;
+  padding-bottom: 270px;
 }
 .trending-content {
   display: flex;
@@ -1033,7 +1030,7 @@ color: rgba(0, 0, 0, 0.85);
   height: 60%;
   object-fit: cover;
 }
-.box-content{
+.box-content {
   display: flex;
   flex-direction: column;
 }
@@ -1041,24 +1038,24 @@ color: rgba(0, 0, 0, 0.85);
   width: 255px;
   font-family: "Inter Bold", serif;
   font-size: 19px;
-line-height: 30px;
-color: #000000;
-margin-top: 15px;
-margin-bottom: 15px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-.trending-text{
+.trending-text {
   font-weight: 400;
   font-size: 15px;
-line-height: 26px;
-color: #7D7987;
-margin-bottom: 25px;
+  line-height: 26px;
+  color: #7d7987;
+  margin-bottom: 25px;
 }
 .trending-see {
   margin-top: auto;
   font-weight: 600;
   font-size: 15px;
   line-height: 28px;
-color: #FB8F1D;
+  color: #fb8f1d;
 }
 .trending-see a:hover {
   text-decoration: underline;
@@ -1066,36 +1063,37 @@ color: #FB8F1D;
 /*=====================trending STYLES END======================*/
 /*=====================FOOTER START======================*/
 .footer {
-  background: #F9F9FB;
-  padding-top: 135px;
+  background: #f9f9fb;
+  padding-top: 80px;
   padding-bottom: 30px;
 }
 .footer-nav {
   display: flex;
   justify-content: space-between;
   color: #212353;
-  padding-top: 80px;
   margin-bottom: 80px;
 }
 .nav-footer {
   margin-bottom: 35px;
 }
-.footer-information{
+.footer-information {
   width: 300px;
   font-weight: 300;
-font-size: 18px;
-line-height: 28px;
-color: #848484;
-margin-bottom: 55px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #848484;
+  margin-bottom: 55px;
 }
-.footer-data-company{
+.footer-data-company {
   font-weight: 300;
-font-size: 17px;
-line-height: 28px;
-color: #848484;
+  font-size: 17px;
+  line-height: 28px;
+  color: #848484;
 }
 .footer-nav-links {
-  display: contents;
+  width: 690px;
+  display: flex;
+  justify-content: space-between;
 }
 .footer-number-link {
   width: 265px;
@@ -1118,23 +1116,23 @@ color: #848484;
 }
 .footer-navbar li {
   font-weight: 300;
-font-size: 18px;
-line-height: 38px;
-color: #848484;
+  font-size: 18px;
+  line-height: 38px;
+  color: #848484;
 }
 .footer-social {
   font-family: "Mulish Bold", sans-serif;
   font-size: 19px;
-line-height: 60px;
-color: #000000;
+  line-height: 60px;
+  color: #000000;
 }
 .social-icons {
   display: flex;
   justify-content: space-between;
 }
-.icon:hover { 
-border-radius: 5px;
-  box-shadow: 0px 5px 5px 5px #848484;;
+.icon:hover {
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px 5px #848484;
 }
 .icon > img {
   width: auto;
@@ -1145,13 +1143,13 @@ border-radius: 5px;
   margin-left: 10px;
 }
 .fullw-separator {
-  border-bottom: 1px solid #C4C4C4;
+  border-bottom: 1px solid #c4c4c4;
   margin-bottom: 30px;
 }
-.social-icons{
-display: flex;
-justify-content: center;
-align-items: baseline;
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 .social-icons li:nth-child(n + 2) {
   margin-left: 50px;
