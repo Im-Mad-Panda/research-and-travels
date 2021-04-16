@@ -877,6 +877,9 @@ body {
 .testimonials{
   padding-bottom: 270px;
 }
+.trending-box{
+  position: relative;
+}
 .testimonials-title{
   font-family: "Playfair Display", serif;
   font-size: 36px;
@@ -932,11 +935,15 @@ color: rgba(0, 0, 0, 0.85);
   border-radius: 15px;
   height: auto;
   object-fit: cover;
+  
 }
 .testimonials-img-box {
   display: flex;
   align-items: flex-end;
   flex-direction: row-reverse;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 .slider-btn{
   border-radius: 16px 0px 0px 0px;
@@ -975,11 +982,10 @@ color: rgba(0, 0, 0, 0.85);
   background: url("../img/arrow-next.svg") no-repeat 0 0 / cover;
   transform: scaleX(+1);
 }
-
 /*=====================testimonials STYLES END======================*/
 /*=====================trending STYLES START======================*/
 .trending {
-  padding-bottom: 270px;
+  padding-bottom: 135px;
 }
 .trending-content {
   display: flex;
@@ -1021,21 +1027,14 @@ color: rgba(0, 0, 0, 0.85);
   width: 260px;
 }
 .trending-img {
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
   width: 100%;
   height: 60%;
   object-fit: cover;
 }
-.box-content {
-  border-radius: 10px;
-  height: auto;
-  background-color: #fafafa;
+.box-content{
   display: flex;
   flex-direction: column;
-}
-.box-content:hover {
-  background-color: white;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.05), 0 10px 10px rgba(0, 0, 0, 0.05);
 }
 .trending-title-box {
   width: 255px;
@@ -1067,6 +1066,7 @@ color: #FB8F1D;
 /*=====================FOOTER START======================*/
 .footer {
   background: #F9F9FB;
+  padding-top: 135px;
   padding-bottom: 30px;
 }
 .footer-nav {
