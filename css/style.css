@@ -875,10 +875,9 @@ body {
 /*=====================BLOG guides STYLES END======================*/
 /*=====================testimonials STYLES START======================*/
 .testimonials{
-  padding-bottom: 270px;
+  padding-bottom: 135px;
 }
 .testimonials-box{
-  
   position: relative;
 }
 .testimonials-title{
@@ -886,7 +885,7 @@ body {
   font-size: 36px;
   line-height: 50px;
  color: #000000;
- margin-bottom: 145px;
+ margin-bottom: 50px;
 }
 .swiper-slide{
 display: flex;
@@ -938,13 +937,13 @@ color: rgba(0, 0, 0, 0.85);
   object-fit: cover;
   
 }
+.swiper-slide{
+  align-items: center;
+}
 .testimonials-img-box {
   display: flex;
   align-items: flex-end;
   flex-direction: row-reverse;
-  position: absolute;
-  right: 0;
-  bottom: 0;
 }
 .slider-btn{
   border-radius: 16px 0px 0px 0px;
@@ -986,6 +985,7 @@ color: rgba(0, 0, 0, 0.85);
 /*=====================testimonials STYLES END======================*/
 /*=====================trending STYLES START======================*/
 .trending {
+  padding-top: 135px;
   padding-bottom: 135px;
 }
 .trending-content {
