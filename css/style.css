@@ -700,7 +700,14 @@ body {
   font-size: 22px;
   line-height: 27px;
   color: #202336;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+}
+.hero-subtitle::after {
+  margin-top: 20px;
+  content: "";
+  width: 30px;
+  display: block;
+  border-bottom: 2px solid #202336;
 }
 .short-separator {
   width: 32px;
@@ -743,7 +750,6 @@ body {
   background: #fff;
   transition: 0.3s;
 }
-
 /*=====================HERO STYLES END======================*/
 /*=====================BLOG STYLES START======================*/
 .blog {
@@ -964,6 +970,7 @@ body {
 .slider-button-prev:hover {
   background: url("../img/arrow-next.svg") no-repeat 0 0 / cover;
   transform: scaleX(-1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .slider-button-next {
   margin-top: 20px;
@@ -976,6 +983,7 @@ body {
   border-radius: 50%;
 }
 .slider-button-next:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background: url("../img/arrow-next.svg") no-repeat 0 0 / cover;
   transform: scaleX(+1);
 }
@@ -1071,7 +1079,9 @@ body {
   display: flex;
   justify-content: space-between;
   color: #212353;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 40px;
 }
 .nav-footer {
   margin-bottom: 35px;
@@ -1130,10 +1140,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.icon:hover {
-  
-  box-shadow: 0px 5px 5px 5px #848484;
-}
 .icon > img {
   width: auto;
   height: 100%;
@@ -1151,7 +1157,18 @@ body {
   justify-content: center;
   align-items: baseline;
 }
+.social-icons li {
+  width: 40px;
+  height: auto;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.social-icons li:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 .social-icons li:nth-child(n + 2) {
-  margin-left: 50px;
+  margin-left: 45px;
 }
 /*=====================FOOTER END======================*/
