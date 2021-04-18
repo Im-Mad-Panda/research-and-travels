@@ -622,7 +622,8 @@ body {
 }
 .logo:hover {
   border-radius: 50px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
 }
 .nav {
   margin-right: 35px;
@@ -856,6 +857,7 @@ body {
 }
 .services-box-place-link:hover {
   text-decoration: underline;
+  transition: 0.3s;
 }
 .services-box-country-link {
   font-weight: 300;
@@ -863,6 +865,7 @@ body {
 }
 .services-box-country-link:hover {
   text-decoration: underline;
+  transition: 0.3s;
 }
 /*=====================SERVICES STYLES END======================*/
 /*=====================BLOG guides STYLES START======================*/
@@ -971,6 +974,7 @@ body {
   background: url("../img/arrow-next.svg") no-repeat 0 0 / cover;
   transform: scaleX(-1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
 }
 .slider-button-next {
   margin-top: 20px;
@@ -986,6 +990,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background: url("../img/arrow-next.svg") no-repeat 0 0 / cover;
   transform: scaleX(+1);
+  transition: 0.3s;
 }
 /*=====================testimonials STYLES END======================*/
 /*=====================trending STYLES START======================*/
@@ -1067,6 +1072,7 @@ body {
 }
 .trending-see a:hover {
   text-decoration: underline;
+  transition: 0.3s;
 }
 /*=====================trending STYLES END======================*/
 /*=====================FOOTER START======================*/
@@ -1085,6 +1091,11 @@ body {
 }
 .nav-footer {
   margin-bottom: 35px;
+}
+.footer-nav-logo:hover {
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
 }
 .footer-information {
   width: 300px;
@@ -1123,6 +1134,7 @@ body {
 }
 .footer-navbar a:hover {
   text-shadow: 0.2px 0.2px 0px, -0.2px -0.2px 0px;
+  transition: 0.3s;
 }
 .footer-navbar li {
   font-weight: 300;
@@ -1167,6 +1179,7 @@ body {
 }
 .social-icons li:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
 }
 .social-icons li:nth-child(n + 2) {
   margin-left: 45px;
