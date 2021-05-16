@@ -710,12 +710,6 @@ body {
   display: block;
   border-bottom: 2px solid #202336;
 }
-.short-separator {
-  width: 32px;
-  border-radius: 4px;
-  border-bottom: 2px solid #000000;
-  margin-bottom: 50px;
-}
 .hero-select {
   width: 220px;
   height: 52px;
@@ -1159,10 +1153,6 @@ body {
 .icon:nth-child(n + 2) {
   margin-left: 10px;
 }
-.fullw-separator {
-  border-bottom: 1px solid #c4c4c4;
-  margin-bottom: 30px;
-}
 .social-icons {
   display: flex;
   justify-content: center;
@@ -1180,6 +1170,6 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .social-icons li:nth-child(n + 2) {
-  margin-left: 45px;
+  margin-left: 35px;
 }
 /*=====================FOOTER END======================*/
